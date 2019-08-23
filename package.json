@@ -1,0 +1,24 @@
+{
+  "name": "fullstack-ecommerce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GarrettYoung510/fullstack-ecommerce.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GarrettYoung510/fullstack-ecommerce/issues"
+  },
+  "homepage": "https://github.com/GarrettYoung510/fullstack-ecommerce#readme",
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1"
+  }
+}
