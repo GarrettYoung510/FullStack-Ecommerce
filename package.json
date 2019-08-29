@@ -32,5 +32,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GarrettYoung510/fullstack-ecommerce.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GarrettYoung510/fullstack-ecommerce/issues"
+  },
+  "homepage": "https://github.com/GarrettYoung510/fullstack-ecommerce#readme",
   "description": ""
 }
