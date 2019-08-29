@@ -1,24 +1,36 @@
 {
-  "name": "fullstack-ecommerce",
+  "name": "ecommerce-back",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "nodemon"
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "braintree": "^2.19.0",
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.1",
+    "express-validator": "^5.3.1",
+    "formidable": "^1.2.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "mongoose": "^5.6.11",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.1",
+    "uuid": "^3.3.3"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/GarrettYoung510/fullstack-ecommerce.git"
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "heroku-postbuild": "cd ecommerce-front && npm install --only=dev && npm install && npm run build"
+  },
+  "engines": {
+    "node": "v10.15.3"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/GarrettYoung510/fullstack-ecommerce/issues"
-  },
-  "homepage": "https://github.com/GarrettYoung510/fullstack-ecommerce#readme",
-  "dependencies": {
-    "dotenv": "^8.1.0",
-    "express": "^4.17.1"
-  }
+  "description": ""
 }
